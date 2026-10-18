@@ -7,7 +7,7 @@
     gap: 30px;
 }
 
-/*300 para o notebook 317 no monitot*/
+/*300 para o notebook 317 no monitor*/
 .category-card{
     position: relative;
     width: 300px;
@@ -52,5 +52,9 @@
     background-size: cover;
 }
 
-
+@media (max-width: 500px) {
+    .category-card{
+        width: 100%;
+    }
+}
 
